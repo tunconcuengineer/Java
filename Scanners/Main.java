@@ -21,6 +21,9 @@ public class Main {
             password = sc.nextLine();
 
         }while(!username.equals("Java") && !password.equals("Oak"));
+        System.out.println("Welcome...");
+
+        
 
         sc.close();
     }
