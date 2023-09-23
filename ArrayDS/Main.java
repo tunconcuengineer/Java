@@ -1,6 +1,7 @@
 package ArrayDS;
 
 import java.util.Arrays;
+import java.util.Collections;
 
 public class Main {
     public static void main(String[] args) {
@@ -25,6 +26,10 @@ public class Main {
         int[] nums = {12,54,31,35,87,16};
         Arrays.sort(nums);
         System.out.println(Arrays.toString(nums));
+
+        Integer[] numIntegers = {-5,-23,12,55,21,53};
+        Arrays.sort(numIntegers, Collections.reverseOrder());
+        System.out.println(Arrays.toString(numIntegers));
 
         int[] numbers2 = {1,2,3,4,5,6,7,8,9,10};
         System.out.println(Arrays.binarySearch(numbers2, 5));
