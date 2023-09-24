@@ -29,6 +29,14 @@ public class Main {
         // StringBuffer is thread safe whereas StringBuilder is not
         // StringBuilder is faster and preferred over StringBuilder in single-thread programs
         
+        String string = "Hello";
+        StringBuilder stringBuilder = new StringBuilder("Another Hello");
+        stringBuilder.append(string);
+        System.out.println(stringBuilder);
+        string += stringBuilder.toString();
+        System.out.println(string);
+
+
 
 
     }
