@@ -6,7 +6,6 @@ public class Dog extends Animal{
     public Dog(String breed,double weight) {
         super(weight);
         this.breed = breed;
-        //TODO Auto-generated constructor stub
     }
 
     
