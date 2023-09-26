@@ -1,4 +1,4 @@
-package ArrayListDS;
+package Collections.ArrayListDS;
 
 import java.util.ArrayList;
 import java.util.Comparator;
